@@ -1,0 +1,13 @@
+[project]
+name = "comfyui_nvidia_rtx_deblur_denoise"
+description = "NVIDIA RTX Deblur & Denoise Nodes for ComfyUI\nThis extension provides GPU-accelerated deblur and denoise nodes powered by NVIDIA RTX technology via the nvvfx SDK."
+version = "0.1.0"
+license = "LICENSE"
+dependencies = [
+  "nvidia-vfx"
+]
+
+[tool.comfy]
+PublisherId = "comfyui"
+DisplayName = "ComfyUI_NVIDIA_RTX_Deblur_Denoise"
+EntryPoint = "comfy_entrypoint"
